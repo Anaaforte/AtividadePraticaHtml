@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+</head>
+<body>
+    <h1>PRONTUÁRIO ELETRONICO</h1>
+    <form action="">
+            <label for="Nome completo: ">NOME COMPLETO: </label>
+            <input type="text"  name = "Nome completo ">
+            <label for="Nome completo"></label> <br>
+            <br>
+
+            <label for="nascimento">DATA DE NASCIMENTO</label>
+            <input type="date" name = "nascimento"> <br>
+            <br>
+
+            <label for="numero">TELEFONE: </label>
+            <input type="text"  name = "numero">
+            <label for="numero"></label> <br>
+            <br>
+
+            <label for="email">E-MAIL: </label>
+            <input type="text" name = "email">
+            <label for="email"></label> <br>
+            <br>
+
+            <label for="cpf">CPF: </label>
+            <input type="text" name = "cpf">
+            <label for="cpf"></label> <br>
+            <br>
+
+            <label for="senha">SENHA: </label>
+            <input type="password" name = "senha"> <br>
+            <br>
+
+            <label for="genero">GENERO: </label>
+            <select name="GENERO" id="">
+            <option value="MASC">MASCULINO</option>
+            <option value="FEMI">FEMININO</option>
+            <option value="PNI">PREFIRO NÃO INFORMAR</option>
+            </select> <br>
+            <br>
+
+            <label for="altura">ALTURA (EM CM): </label>
+            <input type="text" name = "altura">
+            <label for="altura"></label> <br>
+            <br>
+
+        <label for="foto">Foto do Paciente:</label>
+        <input type="file" name="foto"><br><br>
+
+        <label for="notas">Notas Adicionais:</label><br>
+        <textarea name="notas" rows="4" cols="50"></textarea><br><br>
+
+    </form>
+
+    <h2>HISTORICO DE CONSULTAS</h2>
+    <table border="1">
+        <thead>
+            <th>DATA</th>
+            <th>MÉDICO</th>
+            <th>DIAGNOSTICO</th>
+        </thead>
+
+        <TBODY>
+        <tr>
+            <td>20/08/2024</td>
+            <td>Dr. João Silva </td>
+            <td>Hipertensão </td>
+        </tr>
+
+        <tr>
+            <td>15/07/2024</td>
+            <td>Dra. Maria Oliveira</td>
+            <td>Diabetes tipo 2</td>
+        </tr>
+    </table>
+        </TBODY>
+
+        <h2>MEDICAMENTOS PRESCRITOS</h2>
+    <table border="1">
+        <thead>
+            <th>MEDICAMENTO</th>
+            <th>DOSAGEM</th>
+            <th>INSTRUÇÕES</th>
+        </thead>
+
+        <tbody>
+         <tr>
+            <td>Metformina</td>
+            <td>500mg</td>
+            <td>Tomar uma vez ao dia</td>
+         </tr>
+        </tbody>
+    </table>
+
+    <h2>RESULTADOS DE EXAMES</h2>
+
+    <table border="1">
+        <thead>
+            <th>DATA</th>
+            <th>TIPO DE EXAME</th>
+            <th>RESULTADO</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>10/08/2024</td>
+                <td>Hemograma</td>
+                <td>Normal</td>
+            </tr>
+
+            <tr>
+                <td>05/07/2024</td>
+                <td>Colesterol</td>
+                <td>Alto</td>
+            </tr>
+        </tbody>
+    </table>
+    
+
+    <h2>HISTORICO DE CIRUGIAS</h2>
+
+    <table border="1">
+        <thead>
+            <th>DATA</th>
+            <td>CIRURGIA</td>
+            <th>OBSERVAÇÕES</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>12/06/2023</td>
+                <td>Cirugia de apendicite</td>
+                <td>Recuperação sem complicações</td>
+            </tr>
+
+            <tr>
+                <td>30/04/2022</td>
+                <td>Cirurgia de Vesícula</td>
+                <td>Recuperação com complicação</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
